@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.todo-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0px 5px ;
+    width: 500px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid ;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+li button {
+    background-color: green;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: red;
+    margin-left: 10px;
+}
